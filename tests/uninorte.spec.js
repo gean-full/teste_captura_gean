@@ -12,8 +12,8 @@ test('Deve fazer login na Uninorte', async ({ page }) => {
     const inputSenha = page.locator('input[name="password"]');
 
     console.log('✍️ Inserindo usuario e senha...');
-    await inputUsuario.fill('GEANVACARO');
-    await inputSenha.fill('gean2000');
+    await inputUsuario.fill('GEANGULOSÃO');
+    await inputSenha.fill('geanPEITUDO');
 
     const botaoEntrar = page.getByRole('button', { name: /entrar|login|acessar/i });
     await botaoEntrar.click();
